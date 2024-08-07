@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./vecteezy_greeting-pakistan-independence-day-14-august-background_13967540.jpg);
+    font-family: 'poppins',sans-serif;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+/* h2{
+    font-size: 3rem;
+    margin-top: -10rem;
+    background-color: rgba(14, 128, 29, 0.365);
+
+} */
+.big-test{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+}
+
+
+.sec-c{
+
+background-color: rgba(12, 97, 171, 0.365);
+
+}
+
+.hours-c{
+
+background-color: rgba(12, 97, 171, 0.365);
+}
+
+.days-c{
+
+background-color: rgba(12, 97, 171, 0.365);
+}
+
+.seconds-c{
+background-color: rgba(12, 97, 171, 0.365);
+
+}
+
+.mins-c{
+
+background-color: rgba(12, 97, 171, 0.365);
+
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    h2{
+        font-size: 2rem;
+        
+    }
+    .big-test{
+        font-size: 2rem;
+        line-height: 1;
+        margin: 0 1rem;
+    }
+    .countdown-el span{
+        font-size: 1rem;
+    }
+}
